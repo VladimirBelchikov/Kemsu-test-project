@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Open Layers</title>
+  <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico"/>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="styles/style.scss">
+
+</head>
+<body>
+
+<main class="main">
+  <section class="map-container">
+    <div id="map" class="map"></div>
+  </section>
+  <section class="controls">
+    <button class="controls__set-point">Ставить точки</button>
+    <button class="controls__set-polygon">Рисовать контур</button>
+    <p class="controls__points-count">Точек в контуре:
+      <span class="controls__counter">0</span>
+    </p>
+  </section>
+</main>
+<script type="module" src="index.js"></script>
+</body>
+</html>

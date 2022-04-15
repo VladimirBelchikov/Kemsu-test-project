@@ -1,0 +1,51 @@
+@import "../../node_modules/ol/ol.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.map-container {
+  width: 80%;
+  height: 100vh;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  gap: 20px;
+
+  & p {
+    font-size: 1.5rem;
+  }
+
+  &__counter {
+    font-size: 1.5rem;
+  }
+
+  & button {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #1f54b4;
+    border: none;
+    border-radius: 15px;
+  }
+
+  & button:hover {
+    background-color: #457adc;
+  }
+}
